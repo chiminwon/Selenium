@@ -1,0 +1,16 @@
+// 升级pip
+python -m pip install --upgrade pip
+
+pip install selenium
+// 安装Pillow
+pip install Pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
+// 安装百度api ocr
+pip install git+https://github.com/Baidu-AIP/python-sdk.git@master
+// 旧版
+pip install baidu_api
+// 安装pytessertact
+pip install pytesseract -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+python -m pip install --upgrade pip -i http://pypi.mirrors.ustc.edu.cn/simple/  --trusted-host pypi.mirrors.ustc.edu.cn
+easy_install -U pip -i http://pypi.mirrors.ustc.edu.cn/simple/  --trusted-host pypi.mirrors.ustc.edu.cn
+
